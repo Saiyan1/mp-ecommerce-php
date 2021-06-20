@@ -1,5 +1,12 @@
 {
-    "name": "mp-ecommerce-php",
-    "type": "project",
-    "require": {}
+    "name": "saiyan/mp-ecommerce-php",
+    "require": {
+        "mercadopago/dx-php": "^2.3"
+    },
+    "authors": [
+        {
+            "name": "GUSTAVO INSAURRALDE",
+            "email": "gustavo.insaurralde@reserv.com.ar"
+        }
+    ]
 }
