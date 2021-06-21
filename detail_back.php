@@ -72,7 +72,7 @@ $preference->back_urls = array(
 
 $preference->auto_return = "approved";
 $preference->external_reference = "insaurralde.ap@gmail.com";
-$preference->notification_url = "https://gsocios.com/mp_certification/notifications.php?source_news=webhooks";
+$preference->notification_url = "https://gsocios.com/mp_certification/notifications.php";
 $preference->save();
 
 //var_dump( $preference->init_point );
