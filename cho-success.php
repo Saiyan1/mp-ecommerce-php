@@ -77,6 +77,9 @@
                     payment_method_id = <?php print $params['payment_type']; ?>  <br>
                     external_reference = <?php print $params['external_reference']; ?> <br>
                     payment_id = <?php print $params['payment_id']; ?> <br>
+                    preference_id = <?php print $params['preference_id']; ?> <br>
+                    ?>
+                    <br>
                     <br>
                     <br>
                     Mientras tanto, puedes <a href="index.php">seguir navegando</a>.

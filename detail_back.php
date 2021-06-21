@@ -7,11 +7,11 @@ session_start();
 
 $url = $_SERVER['REQUEST_URI'];
 
-if(strpos($url, "localhost") !== false){
+//if(strpos($url, "localhost") !== false){
     $host = "http://localhost/mp-ecommerce-php/";
-} else{
-    $host = "https://saiyan1-mp-commerce-php.herokuapp.com/";
-}
+//} else{
+//    $host = "https://saiyan1-mp-commerce-php.herokuapp.com/";
+//}
 
 // SDK de Mercado Pago
 require __DIR__ .  '/vendor/autoload.php';
