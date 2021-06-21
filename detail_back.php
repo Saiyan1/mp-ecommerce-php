@@ -31,6 +31,7 @@ $item->description = "Dispositivo móvil de Tienda e-commerce";
 $item->picture_url = $host . $_POST['img'];
 $item->quantity = 1;
 $item->unit_price = $_POST['price'];
+$item->category_id = "Celulares";
 $preference->items = array($item);
 
 //Pagador
